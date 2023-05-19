@@ -1,5 +1,10 @@
 .header {
-    background: #333;
-    color: rgb(235, 112, 30);
-    height: 80px;
-  }
+  background: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  padding: 10rem 0;
+}
+
+.header img {
+  height: 3.2rem;
+}
