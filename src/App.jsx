@@ -1,8 +1,8 @@
 
 import {Post} from './components/Post/Post'
-import './components/Header/Header';
+
 import { Header } from './components/Header/Header';
-import './styles.css';
+import './global.css';
 export default function App() {
 
   return (
