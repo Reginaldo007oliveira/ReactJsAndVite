@@ -1,11 +1,11 @@
 import styles from './Comments.module.css';
-
+import { Avatar } from '../Avatar/Avatar';
 import { ThumbsUp, Trash } from 'phosphor-react';
 
 export function Comment() {
   return (
     <div className={styles.comment}>
-      <img src="https://github.com/diego3g.png" alt="" />
+      <Avatar hasBorder={false} src="https://github.com/diego3g.png" alt="" />
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
@@ -16,7 +16,7 @@ export function Comment() {
             </div>
 
             <button title="Deletar comentário">
-              <Trash size={20} />
+              <Trash size={22} />
             </button>
           </header>
 
