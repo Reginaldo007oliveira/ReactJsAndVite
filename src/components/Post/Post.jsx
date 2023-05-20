@@ -3,6 +3,7 @@ import styles from './Post.module.css';
 import { Avatar } from '../Avatar/Avatar';
 
 export function Post() {
+
   return (
     <article className={styles.post}>
       <header>
