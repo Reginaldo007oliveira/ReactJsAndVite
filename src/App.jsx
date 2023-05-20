@@ -5,16 +5,17 @@ import { Header } from './components/Header/Header';
 import { Sidebar} from './components/Sidebar/Sidebar';
 import './global.css';
 import styles from './App.module.css';
+
 const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://github.com/diego3g.png',
-      name: 'Diego Fernandes',
-      role: 'CTO @Rocketseat'
+      avatarUrl: 'https://github.com/reginaldo007oliveira.png',
+      name: 'Reginaldo Oliveira',
+      role: 'CTO @brasiliaDesing'
     },
     content: [
-      { type: 'paragraph', content: 'Fala galera 👋' },
+      { type: 'paragraph', content: 'Fala galerass 👋' },
       { type: 'paragraph', content: 'Acabaram de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
       { type: 'link', content: 'jane.design/doctorcare' },
     ],
